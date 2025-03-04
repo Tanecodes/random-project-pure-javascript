@@ -3,6 +3,9 @@
 // and learn more about javascript i feel like if i constantly code here
 // it will be much faster to learn about javascript.
 
+// title:
+document.title = "javascript planet";
+
 // universal: setting some main styles for everything.
 const allElements = document.querySelectorAll("*");
 allElements.forEach(function(element) {
@@ -30,8 +33,10 @@ const container = document.querySelectorAll(".container");
 container.forEach(function(element) {
   element.style.display = "flex";
   element.style.flexDirection = "column";
-  element.style.width = "200px";
-  element.style.height = "200px";
+  element.style.width = "600px";
+  element.style.height = "600px";
   element.style.borderRadius = "50%";
-  element.style.backgroundColor = "blue";
+  element.style.backgroundColor = "lightblue";
+  element.style.boxShadow = "0px 0px 50px grey";
 });
+
